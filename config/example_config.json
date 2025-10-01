@@ -1,0 +1,36 @@
+{
+  "formats": {
+    "hdf5": {
+      "compression": "lzf",
+      "compression_opts": 5,
+      "chunk_size": [1000, 1000]
+    },
+    "zarr": {
+      "compression": "zstd",
+      "chunk_size": [500, 500]
+    },
+    "json": {
+      "indent": 4,
+      "ensure_ascii": true
+    },
+    "pickle": {
+      "protocol": "highest"
+    },
+    "numpy": {
+      "allow_pickle": false
+    }
+  },
+  "validation": {
+    "strict": false,
+    "check_schema": false
+  },
+  "logging": {
+    "level": "DEBUG",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "conversion": {
+    "parallel": false,
+    "num_workers": 4,
+    "batch_size": 10
+  }
+}

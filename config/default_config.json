@@ -1,0 +1,36 @@
+{
+  "formats": {
+    "hdf5": {
+      "compression": "gzip",
+      "compression_opts": 9,
+      "chunk_size": null
+    },
+    "zarr": {
+      "compression": "blosc",
+      "chunk_size": "auto"
+    },
+    "json": {
+      "indent": 2,
+      "ensure_ascii": false
+    },
+    "pickle": {
+      "protocol": "highest"
+    },
+    "numpy": {
+      "allow_pickle": true
+    }
+  },
+  "validation": {
+    "strict": true,
+    "check_schema": true
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "conversion": {
+    "parallel": true,
+    "num_workers": null,
+    "batch_size": 1
+  }
+}

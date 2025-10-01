@@ -26,8 +26,8 @@ else:
 setup(
     name="robot-data-management",
     version="0.1.0",
-    author="Robot Data Management Team",
-    author_email="team@robot-data-management.org",
+    author="Dalen Shi",
+    author_email="dalen.shi@ualberta.ca",
     description="A comprehensive Python library for managing robot data across multiple formats",
     long_description=long_description,
     long_description_content_type="text/markdown",

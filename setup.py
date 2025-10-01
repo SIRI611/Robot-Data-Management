@@ -31,7 +31,7 @@ setup(
     description="A comprehensive Python library for managing robot data across multiple formats",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/robot-data-management/rdm",
+    url="https://github.com/SIRI611/Robot-Data-Management.git",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
